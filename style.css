@@ -1,0 +1,129 @@
+#todo {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+#todo2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(137, 218, 66);
+    border-radius: 10px;
+}
+#todo3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 102, 218);
+    border-radius: 10px;
+}
+
+#todo4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(167, 66, 218);
+    border-radius: 10px;
+}
+
+#todo5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(218, 66, 117);
+    border-radius: 10px;
+}
+
+#todo6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(218, 165, 66);
+    border-radius: 10px;
+}
+
+#todo7 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(218, 213, 66);
+    border-radius: 10px;
+}
+
+#todo8 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(45, 173, 182, 0.242);
+    border-radius: 10px;
+}
+
+#todo9 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 44, 167);
+    border-radius: 10px;
+}
+
+#todo10 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(218, 66, 200);
+    border-radius: 10px;
+}
+
+.active{
+    display: none;
+}
+
+.todo {
+    display: inline-block;
+}
+
+
+
+
+/* section
+2 */
+.posts{
+    padding: 20px;
+    border-radius: 25px;
+    background-color: beige;
+    margin-bottom: 15px;
+  }
+  .overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, .9);
+    display: none;
+  }
+  .overlay.active{
+    display: block;
+  }
+  .close{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+    font-size: 50px;
+  }
+  .content{
+    color: white;
+  }
+
+  .button {
+      width: 100px;
+      height: 50px;
+      background-color: blueviolet;
+      border-radius: 30px;
+     
+  }
+
+  a {
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
